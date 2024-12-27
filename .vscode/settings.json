@@ -1,0 +1,16 @@
+{
+    "files.exclude": {
+        "**/*.rpyc": true,
+        "**/*.rpa": true,
+        "**/*.rpymc": true,
+        "**/cache/": true
+    },
+    "python.autoComplete.extraPaths": [
+        "${workspaceFolder}\\sources\\poky\\meta\\lib"
+    ],
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}\\sources\\poky\\meta\\lib"
+    ],
+    "files.associations": {},
+    "C_Cpp.default.compilerPath": "C:/Users/larry/.platformio/packages/toolchain-xtensa-esp32s3/bin/xtensa-esp32s3-elf-gcc.exe"
+}
